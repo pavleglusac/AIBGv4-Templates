@@ -1,0 +1,1 @@
+SCRIPT_DIR=$(cd "$(dirname "$0")"; pwd) && echo "$$" > "$SCRIPT_DIR/pid.log" && exec node "$SCRIPT_DIR/testBot.js"
